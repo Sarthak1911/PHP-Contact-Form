@@ -1,0 +1,36 @@
+body {
+	
+	font-family:'Courier New', Courier, monospace;
+	font-size:14px;
+	border:0; 
+	margin:10; 
+	padding:10;
+	text-align: center;
+}
+
+input, textarea {
+	font-family: 'Courier New', Courier, monospace;
+	font-size:14px;
+}
+
+.myform{
+	margin:0 auto;
+	width:300px;
+	border:solid 2px #a3daf7;
+	background:#bfe2fc;
+	text-align:center;
+	border-radius: 20px;
+}
+
+input{
+	border-radius: 20px;
+	border: 0;
+	background-color: rgb(255, 255, 255);
+	height: 25px;
+	
+}
+
+textarea{
+	border-radius: 10px;
+	border: 0px;
+}

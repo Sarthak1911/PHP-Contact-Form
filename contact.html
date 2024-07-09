@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Contact</title>
+    <link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+    <form name="contactform" method="post" action="sms_mail_notification.php">
+        <table class="myform" width="800" border="0" align="center" cellpadding="5" cellspacing="5">
+            <tr>
+                <td>Name:<br><input type="text" name="first_name" maxlength="50" size="30"></td>
+            </tr>
+            <tr>
+                <td>Subject:<br><input type="text" name="Sub_ject" maxlength="50" size="30"></td>
+            </tr>
+            <tr>
+                <td>Email Address:<br><input type="text" name="email" maxlength="80" size="30"></td>
+            </tr>
+            <tr>
+                <td>Phone Number:<br><input type="text" name="telephone" maxlength="30" size="30"></td>
+            </tr>
+            <tr>
+                <td>Comments:<br><textarea name="comments" maxlength="1000" cols="25" rows="6"></textarea></td>
+            </tr>
+            <tr>
+                <td>Enter Image Text:<br><img src="captcha.php" /><br><input name="captcha" type="text"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
